@@ -1,0 +1,27 @@
+@import "../../variables.scss";
+:host{
+  grid-column: 3/5;
+}
+// .wrap_how_it_works{
+//     display: grid;
+//     grid-template-columns: 1fr 4fr;
+// }
+.howitwrks{
+    grid-column: 3/5;
+    display: flex;
+    padding: 40px;
+    margin: 20px;
+    justify-content: space-evenly;
+  }
+  .logo{
+    height:$iconhow;
+    width: $iconhow;
+    margin: 0px 30px 0px 30px;
+    padding: 20px;
+  }
+  .column1{
+    text-align: $c;
+    p{
+      padding-left: 20px;
+    }
+  }

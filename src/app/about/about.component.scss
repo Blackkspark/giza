@@ -1,0 +1,26 @@
+@import "../../variables.scss";
+:host{
+    grid-column: 1/3;
+    @include column;
+    @include center($c);
+    
+}
+
+ .bcg_img{
+  grid-column: 1/5;
+}
+ .about{
+    p {
+     margin: auto;
+     padding-top: $stdt;
+     color:$color;
+     font-size: $stdt;
+     width: 70%;
+     text-align: justify;
+   }
+   h1{
+    text-align: $c;
+    font-weight: 100;
+    }
+
+}    

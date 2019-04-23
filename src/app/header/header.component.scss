@@ -1,0 +1,26 @@
+@import "../variables.scss";
+ header{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 12px;
+    margin-left: 40px;
+    margin:5px;
+    a{
+      text-decoration: none;
+      font-size: $stdt;
+      color:$color;
+    }
+  }
+  .punkt{
+    display:flex;
+    align-items:$c;
+    justify-content: space-around;
+  
+  }
+  .logoheader{
+    height: 50%;
+    width:50%;
+    padding: 20px;
+  
+  } 

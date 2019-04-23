@@ -1,0 +1,45 @@
+@import "../variables.scss";
+.wrap_gallery{
+    display:grid;
+}
+.zag{
+    grid-column: 1/5;
+    margin-bottom: 30px;
+  }
+  h1{
+    text-align: $c;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    font-size: $stdt;
+    color: $color;
+  }
+  .gallery{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: $c;
+  }
+  .works{
+    margin: 0px 10px;
+  }
+  .port{
+    width:$max;
+    height: auto;
+    padding-bottom: 28px;
+  }
+  .see{
+    grid-column: 1/5;
+    display: flex;
+    justify-content: $c;
+    
+    a{
+      font-size: 20px;
+      padding: 10px;
+      text-align: $c;
+      border: $border;
+      padding: 8px 20px;
+    }
+  }
+  

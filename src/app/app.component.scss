@@ -1,0 +1,40 @@
+@import "../variables.scss";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: MyriadProRegular; 
+    a{
+        text-decoration: none;
+        
+     }
+    }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto; }
+  .image{
+    // background-image: url(assets/image/4.jpg);
+    height: 492px;
+    background-repeat: round;
+  }
+  .bcg_img{
+    grid-column: 1/5;
+  }
+  .wrap_about_how_it_works{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 40px;
+  }
+  .wrap_upload_form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .background_upload{
+    grid-row: 7/8;
+    //height: 300px;
+    grid-column: 1/5;
+  }
+  .gif{
+    width: $max;
+  }

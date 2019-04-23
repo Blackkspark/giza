@@ -1,0 +1,23 @@
+$max:100%;
+$c:center;
+$stdt:15px;
+$border:1px solid #666;
+$color:black;
+$colorft: #9995a7;
+$iconhow: 130px;
+$iconsoc:40px;
+@mixin center($c) {
+    justify-content: $c;
+      align-items: $c;
+  }
+  @mixin column {
+    display: flex;
+  flex-direction: column;
+  }
+  @mixin links{
+      a{
+          text-decoration: none;
+          font-size: $stdt;
+          color:$color;
+        }
+    }

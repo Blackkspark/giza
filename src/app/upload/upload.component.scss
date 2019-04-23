@@ -1,0 +1,25 @@
+@import "../../variables.scss";
+:host{
+    grid-row: 7/8;
+    grid-column: 1/3;
+    @include column;
+    @include center($c);
+}
+.uploadfile{
+    
+    p{
+      text-align: $c;
+      width: 75%;
+    }
+    a{
+      background-color:$colorft;
+      color:white;
+      font-size: 20px;
+      padding: 10px 20px;
+      margin: 30px;
+      
+    }
+
+  }
+ 
+  
