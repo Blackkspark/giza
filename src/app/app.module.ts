@@ -10,6 +10,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { UploadComponent } from './upload/upload.component';
 import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
+import { TabComponent } from './tab/tab.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     UploadComponent,
     FormComponent,
     FooterComponent,
+    TabComponent,
+    TabsComponent,
     
   ],
   imports: [
